@@ -1,5 +1,6 @@
 const API_BASE = 'https://api.axios.react.dev.br/v1/';
 const API_USERS = `${API_BASE}users/`;
+const message = (mensagem) => console.log(mensagem);
 
 const apiUser = (id, path = '') => (id ? `${API_USERS}${id}/${path}` : API_USERS);
 
